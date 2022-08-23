@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+@font-face {
+    font-family: 'myfont';
+    src: url('font/iransans/IRANsansWeb.ttf') format("truetype");
+}
+
+
+body{
+    direction: rtl;
+    font-family: "myfont", serif;
+    overflow-x: hidden;
+
+}
+.navtextcolor{
+    color: #4e9dd1;
+    font-weight: 900;
+}
+
+.pcarousel{
+    font-size: 44px;
+    color: #af4803;
+    margin-top: -50px;
+}
+.btncarousel{
+    width: 200px;
+    height: 50px;
+    color: black;
+    margin: 25px auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.card img{
+    transition: all 0.6s;
+    
+}
+.card img:hover{
+    opacity: 0.6;
+    z-index: 1000;
+
+}
+.card-body h5{
+    color: #fd7e14;
+    background-color: transparent;
+}
+.card-title i{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px 0 5px 0;
+    color: #fd7e14;
+    
+}
+.col-after-card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 120px;
+
+}
+
+
+.col-after-card h1 {
+    
+    height: 100px;
+    margin: 0px auto;
+    color:#4e9dd1;
+    font-size: 3.5em;
+    word-spacing: 10px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.col-after-card p{
+    width: 90%;
+    text-align: justify;
+    margin: 0px auto;
+    color: black;
+    font-size: 1.5em;
+
+}
+.icons-holder{
+    width: 1200px;
+    margin: 30px auto;
+}
+.icons-holder .icon{
+    width: 20%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.icon img{
+    height: 120px;
+    margin-bottom: 20px;
+    color: #4e9dd1;
+}
+.icon p{
+    font-size: 16px;
+}
+.modal-body p{
+    width: 90%;
+    text-align: justify;
+    margin: 5px auto;
+}
+.modal-body img{
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0px 4px 25px #fd7e14;
+
+    
+}
+
+
+
+
+
+
